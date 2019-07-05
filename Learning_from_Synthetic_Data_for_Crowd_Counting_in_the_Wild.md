@@ -6,6 +6,12 @@ Rockstar Advanced Game En-gine (RAGE) to improve its draw distance rendering ca-
 
 先前的工作在GTA5里面没有congested scene ，所以我们需要design a strategy to construct crowd scenes
 
+Scenes Synthesis for Congested Crowd: 由于在GTA5里面放置人最多放256个，So we adopt a step-by-step method to generate scenes. 即合成图片  
+
+the number of people is set asrandom value in the range of its level. Therefore, GCC has more large-range than other real datasets.  
+
+
+
 2.提出一个有监督的策略，  网络 SFCN     ，利用数据预训练crowd counter ，  可以提供更好的完整的初始参数  
 
 
