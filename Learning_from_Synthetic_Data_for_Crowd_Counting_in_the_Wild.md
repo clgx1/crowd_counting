@@ -30,6 +30,14 @@ Unfortunately, the generated synthetic data are very differ- ent from real-world
 
 Annotating the groundtruth is  time-consuming and labor-intensive work, especially for pixel-wise tasks (such as semantic segmentation, density map estimation).
 
+where SSIM(·, ·) is standard computation: the parameter settings are directly followed by  
+[39] Z. Wang, A. C. Bovik, H. R. Sheikh, and E. P. Simoncelli. Image quality assessment: from error visibility tostructural similarity. IEEE transactions on image processing, 13(4):600–612, 2004.
+
+During the training phase, the µ is set as 1, other parameters and set-tings are the same as Cycle GAN [44].  
+
+J.-Y. Zhu, T. Park, P. Isola, and A. A. Efros. Unpaired imageto-image translation using cycle-consistent adversarial networks. arXiv preprint, 2017.
+
+
 
 
  
