@@ -1,5 +1,5 @@
 1. 从electronic game GTA5 创建了数据集 GCC  
-
+上来先强调自动标注  ，但是论文中只提到了 gta的引擎标注 ，所以适用性还是个问题。
 Rockstar Advanced Game En-gine (RAGE) to improve its draw distance rendering ca-pabilities.  
 
 人头的自动标注 based on the rendering pipeline.  
